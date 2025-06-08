@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gra Przeglądarkowa</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Górna sekcja -->
@@ -30,48 +31,7 @@
                     </td>
                     <td colspan="2" rowspan="8" id="pa-cell">
                         <div id="action-bar-container">
-                            <p id="pa-title">Punkty Akcji</p>
-                            <div id="action-bar">
-                                500/2000
-                                <div class="tooltip" id="pa-tooltip"></div>
-                            </div>
-                        </div>
-                    </td>
-                    <td rowspan="8" id="resources-cell">
-                        <div class="resource" title="Złoto">
-                            <img src="https://via.placeholder.com/20x20?text=G" alt="Gold Icon" class="icon">
-                            <span id="gold">100</span>
-                        </div>
-                        <div class="resource" title="Kryształy">
-                            <img src="https://via.placeholder.com/20x20?text=C" alt="Crystal Icon" class="icon">
-                            <span id="crystals">5</span>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <div class="stat-container">
-                            ⚡ <span id="speed">8</span>
-                            <div class="tooltip" id="speed-tooltip"></div>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <div class="stat-container">
-                            🛡️ <span id="endurance">15</span>
-                            <div class="tooltip" id="endurance-tooltip"></div>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <div class="stat-container">
-                            🔋 <span id="energy">12</span>
-                            <div class="tooltip" id="energy-tooltip"></div>
-                        </div>
-                    </td>
-                </tr>
+@@ -75,45 +75,37 @@
                 <tr>
                     <td>
                         <div class="stat-container">
