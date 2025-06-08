@@ -1,0 +1,10 @@
+{
+  "width": 600,
+  "height": 600,
+  "objects": [
+    {"type": "wall", "x": 100, "y": 100, "width": 400, "height": 20},
+    {"type": "wall", "x": 100, "y": 480, "width": 400, "height": 20},
+    {"type": "wall", "x": 100, "y": 100, "width": 20, "height": 400},
+    {"type": "wall", "x": 480, "y": 100, "width": 20, "height": 400}
+  ]
+}
