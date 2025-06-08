@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gra Przeglądarkowa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Górna sekcja -->
+    <div id="top-section">
+        <!-- Tabela gracza -->
+        <div id="player-stats">
+            <table>
+                <tr>
+                    <td rowspan="8" class="avatar" onclick="openAvatarDialog()">
+                        🧙‍♂️
+                        <div id="avatar-info">
+                            <div id="level">Poziom: <span id="level-value">1</span></div>
+                            <div id="exp-bar">
+                                <div id="exp-fill"></div>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="stat-container">
+                            💪 <span id="strength">10</span>
+                            <div class="tooltip" id="strength-tooltip"></div>
+                        </div>
+                    </td>
+                    <td colspan="2" rowspan="8" id="pa-cell">
+                        <div id="action-bar-container">
+                            <p id="pa-title">Punkty Akcji</p>
+                            <div id="action-bar">
+                                500/2000
+                                <div class="tooltip" id="pa-tooltip"></div>
+                            </div>
+                        </div>
+                    </td>
+                    <td rowspan="8" id="resources-cell">
+                        <div class="resource" title="Złoto">
+                            <img src="https://via.placeholder.com/20x20?text=G" alt="Gold Icon" class="icon">
+                            <span id="gold">100</span>
+                        </div>
+                        <div class="resource" title="Kryształy">
+                            <img src="https://via.placeholder.com/20x20?text=C" alt="Crystal Icon" class="icon">
+                            <span id="crystals">5</span>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="stat-container">
+                            ⚡ <span id="speed">8</span>
+                            <div class="tooltip" id="speed-tooltip"></div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="stat-container">
+                            🛡️ <span id="endurance">15</span>
+                            <div class="tooltip" id="endurance-tooltip"></div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="stat-container">
+                            🔋 <span id="energy">12</span>
+                            <div class="tooltip" id="energy-tooltip"></div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="stat-container">
+                            🎯 <span id="power">45</span>
+                            <div class="tooltip" id="power-tooltip"></div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        
+        <!-- Tabela linków -->
+        <div id="links">
+            <button>GRAJ</button>
+            <button>EKWIPUNEK</button>
+            <button>TRENING</button>
+            <button>WYPRAWA</button>
+            <button>ARENA</button>
+            <button>KLAN</button>
+            <button>TEREN</button>
+            <button>WIADOMOŚCI</button>
+            <button>INNE</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gra Przeglądarkowa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Sekcja GRAJ -->
+    <div id="game-page" class="page">
+        <div id="map-container">
+            <div id="map">
+                <div id="player"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
